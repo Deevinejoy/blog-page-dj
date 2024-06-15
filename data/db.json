@@ -1,0 +1,52 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "my first post",
+      "datetime": "15 June, 2024 6:49:24 AM",
+      "body": "something meaningful\n"
+    },
+    {
+      "id": "2",
+      "title": "my second post",
+      "datetime": "15 June, 2024 6:49:04 AM",
+      "body": "Something meaningful"
+    },
+    {
+      "id": "3",
+      "title": "my third post",
+      "datetime": "15 June, 2024 6:50:01 AM",
+      "body": "what should this be"
+    },
+    {
+      "id": "5",
+      "title": "again",
+      "datetime": "15 June, 2024 7:14:36 AM",
+      "body": "if you dont work this time ehn"
+    },
+    {
+      "id": "6",
+      "title": "something",
+      "datetime": "28 May, 2024 11:24:20 AM",
+      "body": "very meanimgul"
+    },
+    {
+      "id": "8",
+      "title": "wanna test again",
+      "datetime": "28 May, 2024 1:59:46 PM",
+      "body": "stupid editt  ahh"
+    },
+    {
+      "id": "9",
+      "title": "Testing oo",
+      "datetime": "29 May, 2024 8:07:40 AM",
+      "body": "cus why not tchhh"
+    },
+    {
+      "id": "91",
+      "title": "Refreshing",
+      "datetime": "15 June, 2024 7:44:55 AM",
+      "body": "flawless victory!"
+    }
+  ]
+}

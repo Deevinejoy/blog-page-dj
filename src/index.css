@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#root{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.App{
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #31383F;
+    box-shadow: 0px 0px 15px gray;
+
+}
+header{
+    background-color: #DD8EA4;
+    width: 100%;
+    color: #31383F;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+}
+nav{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+   justify-content: space-between;
+   background-color: #31383F;
+   color: white;
+}
+.icon{
+    height:60px
+}
+
+ul {
+    display: flex;
+    gap: 2rem;
+    padding-top: 1rem;
+    padding-right: 2rem;
+    list-style: none;
+  
+}
+li a{
+    color: white;
+    text-decoration: none;
+
+}
+li a:focus, a:active{
+    color: #DD8EA4;
+}
+
+li a:hover{
+color:#DD8EA4;
+cursor: pointer;
+
+
+}
+li a[class='active']{
+    color: red
+}
+
+.searchForm form{
+    display: flex;
+    flex-grow: 1;
+   
+}
+
+.searchForm input{
+    margin: 5px;
+    height: 2.5rem;
+    padding: 10px;
+   
+}
+.searchForm label{
+    position: absolute;
+    left: -999999px;
+}
+
+
+main{
+    background-color: #F2E9EB;
+    margin-bottom: 7px;
+    padding: 15px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    overflow-y: scroll;
+  
+}
+.post {
+   border-bottom: 1px solid black; 
+}
+.postDate{
+    padding-bottom: 10px;
+}
+.postBody{
+    padding-bottom: 10px;
+    color: #DD8EA4;  
+}
+.post a:link{
+    color: #31383F;
+    text-decoration: none;
+}
+.post a:visited, a:focus{
+    color:#31383F
+}
+
+
+button{
+   margin-right: 10px;
+   margin-top: 10px;
+   margin-bottom: 5px;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+}
+.delButton{
+    background-color: red;
+}
+.editButton{
+    background-color: #31383F;
+}
+.newPost h2{
+    text-align: center;
+}
+.newPostForm{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+.newpostTitle{
+    padding: 5px;
+    margin: 10px;
+}
+.newpostBody{
+    margin: 10px;
+}
+.newButton{
+    background-color: #DD8EA4;
+}
+.about{
+    text-align: center;
+}
+footer{
+    background-color: #DD8EA4;
+    max-width: 50%;
+    position: fixed;
+    bottom: 0;
+    display: none;
+   
+}
